@@ -1,0 +1,290 @@
+<link rel="stylesheet" href="css/style.css" />
+<!-- <link rel="stylesheet" href="css/carousel.css" /> -->
+<script src="plugins/jquery/jquery.js"></script>
+<script src="plugins/carousel.js"></script>
+<meta charset="UTF-8" />
+<title>LANDING PAGE : GAMING</title>
+<body>
+  <div class="mainpage">
+    <ul class="topnav">
+      <li><span class="logo">LOGO</span></li>
+      <li><a class="active" href="#home">HOME</a></li>
+      <li><a href="#work">WORK</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+      <li class="right"><a href="#login">LOGIN</a></li>
+      <li class="right"><a href="#signup">SIGNUP</a></li>
+    </ul>
+    <div class="main_content" id="firstpage">
+      <h1 id="main_title">PLAY TRADITIONAL GAME</h1>
+      <h2 id="main_description">Experience new traditional games play</h2>
+      <button id="main_btn">PLAY NOW</button>
+      <div class="button_down">
+        <a href="#" onclick="scroll_thestory()">
+          <p>THE STORY</p>
+          <img src="assets/scroll-down.svg" alt="scroll_down" />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="secondpage" id="secondpage">
+    <!-- halaman 2 -->
+    <div class="second_content">
+      <p id="second_small" class="second_text">What's so special ?</p>
+      <p id="second_large" class="second_text">THE GAMES</p>
+    </div>
+    <div class="carousel_place">
+      <a href="javascript:void(0);" class="btnPrevious">
+        <img src="assets/switch-left.svg" />
+      </a>
+      <div class="carousel">
+        <ul>
+          <li>
+            <img
+              src="assets/rockpaperstrategy-1600.jpg"
+              alt="Italian Trulli"
+              class="carousel_img"
+            />
+          </li>
+          <li>
+            <img
+              src="assets/blankimage.jpg"
+              alt="Italian Trulli"
+              class="carousel_img"
+            />
+          </li>
+          <li>
+            <img
+              src="assets/blankimage.jpg"
+              alt="Italian Trulli"
+              class="carousel_img"
+            />
+          </li>
+        </ul>
+      </div>
+      <ol class="bullets carousel-indicators">
+        <li class="active" data-target="#carousel-example"></li>
+        <li class="" data-target="#carousel-example"></li>
+        <li class="" data-target="#carousel-example"></li>
+        <li class="" data-target="#carousel-example"></li>
+      </ol>
+
+      <a href="javascript:void(0);" class="btnNext"
+        ><img src="assets/switch-right.svg"
+      /></a>
+    </div>
+  </div>
+  <div class="thirdpage" id="thirdpage">
+    <div class="third_text">
+      <p>What's so special ?</p>
+      <h1>FEATURES</h1>
+    </div>
+    <div class="third_content">
+      <span class="vl"></span>
+      <div class="group">
+        <div class="posdot"><span class="dot active"></span></div>
+        <div class="list">
+          <h2 style="color: orange">TRADITIONAL GAMES</h2>
+          <p>
+            if you miss your childhood, we provide many traditional games here a
+          </p>
+        </div>
+      </div>
+      <div class="group">
+        <div class="posdot"><span class="dot"></span></div>
+        <div class="list">
+          <h2 style="color: orange">GAME SUIT</h2>
+        </div>
+      </div>
+      <div class="group">
+        <div class="posdot"><span class="dot"></span></div>
+        <div class="list">
+          <h2 style="color: orange">TBD</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fourthpage" id="fourthpage">
+    <div class="fourth_content">
+      <p class="center_top">Can My Computer Run this game</p>
+      <h1>SYSTEM REQUIREMENTS</h1>
+      <table class="table_req" border="1px solid black">
+        <tr>
+          <td>
+            <p class="title_table">OS</p>
+            <p class="desc_table">
+              WINDOWS 7 64-bit only <br />
+              (No OSX support at this time)
+            </p>
+            <p class="desc_table">&nbsp</p>
+          </td>
+          <td>
+            <p class="title_table">PROCESSOR</p>
+            <p class="desc_table">
+              Intel Core 2 Duo @ 2.4 GHZ or <br />AMD Athlon X2 @ 2.8GHZ
+            </p>
+            <p class="desc_table">&nbsp</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p class="title_table">MEMORY</p>
+            <p class="desc_table">4 GB RAM</p>
+            <p class="desc_table">&nbsp</p>
+          </td>
+          <td>
+            <p class="title_table">STORAGE</p>
+            <p class="desc_table">8 GB available space</p>
+            <p class="desc_table">&nbsp</p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <p class="title_table">GRAPHICS</p>
+            <p class="desc_table">
+              NVIDIA GeForce GTX 660 2GB or <br />
+              AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)
+            </p>
+            <p class="desc_table">&nbsp</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="fifthpage" id="fifthpage">
+    <div class="left_container">
+      <h1>TOP SCORES</h1>
+      <p>
+        This top score from various games provided <br />
+        on this platform
+      </p>
+      <button class="btn_seemore">see more</button>
+    </div>
+    <div class="right_container">
+      <div class="group_box right">
+        <div class="player_titl">
+          <img src="assets/evan-lahti.jpg" class="img_profile" />
+          <img src="assets/ellipse-orange.png" class="slider" />
+          <div class="head">
+            <p class="nama_player">Evan Lahti</p>
+            <p class="job_player">PC GAMER</p>
+          </div>
+          <img src="assets/twitter.svg" class="twitter_link" />
+        </div>
+        <div class="player_comment">
+          <p class="desc">&quot;One my game highlights of the year&quot;</p>
+          <p class="datetime">October 18, 2018</p>
+        </div>
+      </div>
+      <!--  grouping box -->
+      <div class="group_box left">
+        <div class="player_titl">
+          <img src="assets/jada-griffin.jpg" class="img_profile" />
+          <img src="assets/ellipse-orange.png" class="slider" />
+          <div class="head">
+            <p class="nama_player">Jada Griffin</p>
+            <p class="job_player">Nerd Reactor</p>
+          </div>
+          <img src="assets/twitter.svg" class="twitter_link" />
+        </div>
+        <div class="player_comment">
+          <p class="desc">
+            &quot;The next big thing in the world of streaming and survival
+            games&quot;
+          </p>
+          <p class="datetime">December 21, 2018</p>
+        </div>
+      </div>
+      <!--  grouping box -->
+      <div class="group_box right">
+        <div class="player_titl">
+          <img src="assets/aaron-williams.jpg" class="img_profile" />
+          <img src="assets/ellipse-orange.png" class="slider" />
+          <div class="head">
+            <p class="nama_player">Aaron Williams</p>
+            <p class="job_player">Uproxx</p>
+          </div>
+          <img src="assets/twitter.svg" class="twitter_link" />
+        </div>
+        <div class="player_comment">
+          <p class="desc">
+            &quot;Snopp Dogg Playing The Wildly Entertaining &apos;SOS&apos; is
+            Ridiculous&quot;
+          </p>
+          <p class="datetime">December 24, 2018</p>
+        </div>
+      </div>
+      <!--  grouping box -->
+    </div>
+  </div>
+  <div class="sixthpage" id="sixthpage">
+    <div class="sixthpagecontent">
+      <div class="leftcontent">
+        <img src="assets/skull.png" alt="" />
+      </div>
+      <div class="rightcontent">
+        <p class="top_med">Want to stay in <br />Touch?</p>
+        <h1 class="bigone">NEWSLETTER SUBSCRIBE</h1>
+        <p class="top_small">
+          In order to strat receiving our news, all you have to do is enter your
+          email <br />address. Everything else will be taken care of by us. We
+          will send you emails<br />
+          containing information about game. We don't spam.
+        </p>
+        <form action="">
+          <div class="inputgrup">
+            <label for="email">Your email address:</label><br />
+            <input type="email" id="email" value="youremail@binar.co.id" />
+          </div>
+          <button>Subscribe now</button>
+        </form>
+      </div>
+    </div>
+    <div class="bottom_navbar">
+      <ul>
+        <li>
+          <a href="#"><img src="assets/twitch.svg" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="assets/youtube.svg" width="25px" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="assets/twitter.svg" /></a>
+        </li>
+        <li>
+          <a href="#"> <img src="assets/facebook.svg" /></a>
+        </li>
+
+        <li><a href="#fifthpage">QUOTES</a></li>
+        <li><a href="#fourthpage">SYSTEM REQUIREMENTS</a></li>
+        <li><a href="#thirdpage">GAME FEATURES</a></li>
+        <li><a href="#secondpage">ABOUT</a></li>
+        <li><a href="#firstpage">MAIN</a></li>
+      </ul>
+    </div>
+    <div class="footer">
+      <hr />
+      <div class="content_footer">
+        <p>©2018 Your Games.Inc All Right Reserved</p>
+        <p class="right_nav">
+          <a href="#sixthpage">PRIVACY POLICY</a> |
+          <a href="#sixthpage">TERM OF SERVICE</a> |
+          <a href="#sixthpage">CODE OF CONDUCT</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script>
+  function scroll_thestory() {
+    var scrollDiv = document.getElementById("secondpage").offsetTop;
+    window.scrollTo({ top: scrollDiv, behavior: "smooth" });
+  }
+
+  koleksi_img = ["rockpaperstrategy-1600.jpg", "blankimage.jpg"];
+  cur_img = "rockpaperstrategy-1600.jpg";
+
+  function next_img(params) {
+    $(".carousel_box").attr("src", "second.jpg");
+  }
+</script>
